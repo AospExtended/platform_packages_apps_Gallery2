@@ -19,6 +19,7 @@
   <string name="layout_grid">グリッド表示</string>
   <string name="layout_filmstrip">フィルムストリップ表示</string>
   <string name="slideshow_settings">スライドショー</string>
+  <string name="type_images">画像</string>
   <string name="wallpaper_type_dialog_title">壁紙を設定</string>
   <string name="wallpaper_type_both">ホーム画面とロック画面</string>
   <string name="wallpaper_type_system">ホーム画面</string>

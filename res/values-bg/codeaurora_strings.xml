@@ -30,5 +30,38 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
+  <string name="setp_option_name">Стъпка</string>
+  <string name="setp_option_three_second">3 секунди</string>
+  <string name="setp_option_six_second">6 секунди</string>
+  <string name="single">"Единичен"</string>
+  <string name="stereo">"Стерео"</string>
+  <string name="speaker_on">Високоговорител включен</string>
+  <string name="speaker_off">Високоговорител изключен</string>
+  <string name="speaker_need_headset">Моля включете първо слушалките!</string>
+  <string name="single_track">"Една песен"</string>
+  <string name="media_detail">"Данни за носители"</string>
+  <string name="input_url">"Въведете URL адрес"</string>
+  <string name="streaming_settings">"Поточни настройки"</string>
+  <string name="next">"Следваща"</string>
+  <string name="previous">"Предишна"</string>
+  <string name="rtp_rtcp">RTP/RTCP</string>
+  <string name="buffer_size">Размер на буфера</string>
+  <string name="apn">Предпочитан APN</string>
+  <string name="set_buffer_size">Задаване размер на буфера</string>
+  <string name="set_apn">Изберете предпочитана точка за достъп</string>
   <string name="setting">Настройки</string>
+  <string name="server_timeout_title">"Време за изчакване на сървъра"</string>
+  <string name="server_timeout_message">"Да се свържа ли повторно със сървъра, за да изпълни видеото?"</string>
+  <string name="videoview_error_text_cannot_connect_retry">"Неуспешна връзка, опитайте да се свържете с %1$d\u2026"</string>
+  <string name="media_controller_live">На живо</string>
+  <string name="media_controller_playing">Възпроизвеждане</string>
+  <string name="media_controller_connecting">Свързване\u2026</string>
+  <string name="bookmark_add">"Добавяне на отметка"</string>
+  <string name="bookmark_display">"Показване на отметките"</string>
+  <string name="bookmark_empty">"Няма отметки"</string>
+  <string name="bookmark_list">"Отметки"</string>
+  <string name="bookmark_title">"Заглавие"</string>
+  <string name="bookmark_location">"Местоположение"</string>
+  <string name="delete_all">"Изтрий всички"</string>
+  <string name="default_title">"Заглавие по подразбиране"</string>
 </resources>

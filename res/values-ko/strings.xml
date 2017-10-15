@@ -40,6 +40,7 @@
   <!-- Movie View Start Playing button "Resume from bookmark" -->
   <string name="resume_playing_resume">이어서 보기</string>
   <!-- Displayed in the title of those albums that are being loaded -->
+  <string name="loading">불러오는 중\u2026</string>
   <!-- Displayed in the title of those pictures that fails to be loaded
          [CHAR LIMIT=50]-->
   <string name="fail_to_load">로드하지 못했습니다.</string>
@@ -85,15 +86,18 @@
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">사진을 다음으로 설정</string>
   <!-- Activity title for cropping picture and setting it as wallpaper [CHAR LIMIT=20] -->
+  <string name="set_wallpaper">배경화면 설정</string>
   <!-- Toast/alert after saving wallpaper -->
   <string name="wallpaper">배경화면을 설정하는 중...</string>
   <string name="camera_setas_wallpaper">배경화면</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
+  <string name="delete">삭제</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <plurals name="delete_selection">
     <item quantity="other">선택한 항목을 삭제할까요?</item>
   </plurals>
   <string name="confirm">확인</string>
+  <string name="cancel">취소</string>
   <string name="share">공유</string>
   <string name="share_panorama">파노라마 공유</string>
   <string name="share_as_photo">사진으로 공유</string>
@@ -104,6 +108,7 @@
   <!-- String indicating more actions are available -->
   <string name="select_all">모두 선택</string>
   <string name="deselect_all">모두 선택취소</string>
+  <string name="slideshow">슬라이드쇼</string>
   <string name="details">세부정보</string>
   <string name="details_title">%2$d개 중 %1$d번째 항목:</string>
   <string name="close">닫기</string>
@@ -218,6 +223,7 @@
   <string name="sync_picasa_albums">새로고침</string>
   <!-- A label on a button. The user clicks this button after he has
          finished selection. [CHAR LIMIT=15] -->
+  <string name="done">완료</string>
   <!-- String indicating the sequence of currently selected item in the
             media set eg. 3 of 5 items [CHAR LIMIT=30] -->
   <string name="sequence_in_set">%2$d개 중 %1$d번째 항목:</string>
@@ -228,6 +234,7 @@
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
   <string name="time">시간</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
+  <string name="location">위치</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
   <string name="path">경로</string>
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
@@ -270,6 +277,7 @@
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
   <string name="flash_off">플래시 없음</string>
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
+  <string name="unknown">알 수 없음</string>
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
   <string name="ffx_original">원본</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
@@ -358,6 +366,7 @@
   <!-- The title of the dialog for choosing the type of widget. [CHAR LIMIT=20] -->
   <string name="widget_type">이미지 선택</string>
   <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
+  <string name="slideshow_dream_name">슬라이드쇼</string>
   <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
   <string name="albums">앨범</string>
   <!-- Group by Times tab on Action Bar. [CHAR LIMIT=12] -->
@@ -371,24 +380,30 @@
   <!-- Group by menu item. [CHAR LIMIT=20] -->
   <string name="group_by">그룹화 기준</string>
   <!-- The title of the menu item which enable the settings [CHAR LIMIT=20] -->
+  <string name="settings">설정</string>
   <!-- The title of menu item where user can add a new account -->
   <string name="add_account">계정 추가</string>
   <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
   <string name="folder_camera">카메라</string>
   <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
+  <string name="folder_download">다운로드</string>
   <!-- The label for the folder contains edited online pictures. [CHAR LIMIT=40]-->
   <string name="folder_edited_online_photos">수정된 온라인 사진</string>
   <!-- The label for the folder contains pictures that was imported from an
          external camera. [CHAR LIMIT=20]-->
   <string name="folder_imported">가져옴</string>
   <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
+  <string name="folder_screenshot">화면저장</string>
   <!-- The title of the menu item which display online help in browser. [CHAR LIMIT=20]-->
+  <string name="help">도움말</string>
   <!-- The tilte of a dialog showing there is no external storage. [CHAR LIMIT=20] -->
   <string name="no_external_storage_title">저장소 없음</string>
   <!-- The message of a dialog showing there is no external storage. [CHAR LIMIT=none] -->
   <string name="no_external_storage">사용할 수 있는 외부 저장소 없음</string>
   <!-- Label for album filmstrip button -->
+  <string name="switch_photo_filmstrip">슬라이드 보기</string>
   <!-- Label for album grid button -->
+  <string name="switch_photo_grid">바둑판식 보기</string>
   <!-- Label for fullscreen button. [CHAR LIMIT=20] -->
   <string name="switch_photo_fullscreen">전체화면 보기</string>
   <!-- The tilte of a dialog showing trimming in progress. [CHAR LIMIT=20] -->
@@ -406,6 +421,7 @@
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">파노라마 렌더링</string>
   <!-- The label on the button that will save an edited image -->
+  <string name="save" msgid="8140440041190264400">저장</string>
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
   <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
   <!--  Text of notification message which is shown when user attaches camera -->
@@ -463,6 +479,7 @@
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
   <string name="pref_camera_id_title">카메라 선택</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+  <string name="pref_camera_id_entry_back">뒤로가기</string>
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">전방</string>
   <!-- Settings screen, setting title text -->
@@ -478,7 +495,9 @@
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 16]-->
   <string name="pref_camera_timer_sound_title">카운트다운 신호음 켜기</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
+  <string name="setting_off">끄기</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
+  <string name="setting_on">켜기</string>
   <!-- The value of a camera preference indicating the setting is off. -->
   <!-- The value of a camera preference indicating the setting is on. -->
   <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
@@ -488,6 +507,7 @@
   <!-- Video quality setting entry. Videos will be recorded in 720p quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in 480p quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in the highest quality available on the device. [CHAR LIMIT=24] -->
+  <string name="pref_video_quality_entry_high">높게</string>
   <!-- Video quality setting entry. Videos will be recorded in the lowest quality available on the device. [CHAR LIMIT=24] -->
   <string name="pref_video_quality_entry_low">낮음</string>
   <!-- Describes the preference dialog for choosing interval between frame capture for
@@ -539,6 +559,8 @@
   <string name="pref_camera_flashmode_label">플래시 모드</string>
   <!-- Settings screen, Flash mode dialog radio button choices -->
   <string name="pref_camera_flashmode_entry_auto">자동</string>
+  <string name="pref_camera_flashmode_entry_on">켜기</string>
+  <string name="pref_camera_flashmode_entry_off">끄기</string>
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_flashmode_label_auto">자동 플래시</string>
   <string name="pref_camera_flashmode_label_on">플래시 사용</string>
@@ -732,6 +754,7 @@ CHAR LIMIT = NONE] -->
   <!-- Default text for a button that can be toggled on and off. -->
   <string name="capital_off">OFF</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_off">끄기</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_500">0.5초</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -817,6 +840,7 @@ CHAR LIMIT = NONE] -->
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <string name="time_lapse_hours">시간</string>
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
+  <string name="time_lapse_interval_set">완료</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
   <string name="set_time_interval">시간 간격 설정</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
@@ -834,11 +858,13 @@ CHAR LIMIT = NONE] -->
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_no">아니요</string>
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+  <string name="remember_location_yes">예</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <string name="map_activity_not_found_err">There is no map app for show location.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">카메라</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
+  <string name="menu_search">검색</string>
   <!-- Title for the all photos tab [CHAR LIMIT=25] -->
   <string name="tab_photos">사진</string>
   <!-- Title for the albums tab [CHAR LIMIT=25] -->
@@ -857,6 +883,7 @@ CHAR LIMIT = NONE] -->
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
   <string name="virtualizer_strength">3D effect</string>
   <!-- The label for the audio effects menu. -->
+  <string name="audio_effects">음향 효과</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <string name="headset_plug">이 효과를 사용하려면 헤드폰을 연결하시기 바랍니다.</string>
   <!-- The title of the audio effects dialog. -->

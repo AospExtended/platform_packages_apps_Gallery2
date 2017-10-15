@@ -60,104 +60,179 @@
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <!-- Activity title for cropping picture and setting it as wallpaper [CHAR LIMIT=20] -->
+  <string name="set_wallpaper">Усталяваць як шпалеры</string>
   <!-- Toast/alert after saving wallpaper -->
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Выдаліць</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <string name="cancel">Скасаваць</string>
+  <string name="share">Падзяліцца</string>
+  <string name="share_panorama">Падзяліцца панарамай</string>
+  <string name="share_as_photo">Падзяліцца фотаздымкам</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
   <string name="deleted">Выдалена</string>
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
+  <string name="undo">АДМЯНІЦЬ</string>
   <!-- String indicating more actions are available -->
+  <string name="select_all">Выбраць усё</string>
+  <string name="deselect_all">Адмяніць усё</string>
+  <string name="slideshow">Слайд-шоў</string>
+  <string name="details">Звесткі</string>
+  <string name="details_title">%1$d з %2$d элементаў:</string>
+  <string name="close">Зачыніць</string>
   <!-- Title of a menu item to switch from Gallery to Camera app [CHAR LIMIT=30] -->
+  <string name="switch_to_camera">Рэжым камеры</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_items_selected">
+    <item quantity="one">%1$d выбрана</item>
+    <item quantity="few">%1$d выбрана</item>
+    <item quantity="other">%1$d выбрана</item>
+  </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_albums_selected">
+    <item quantity="one">%1$d выбрана</item>
+    <item quantity="few">%1$d выбрана</item>
+    <item quantity="other">%1$d выбрана</item>
+  </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_groups_selected">
+    <item quantity="one">%1$d выбрана</item>
+    <item quantity="few">%1$d выбрана</item>
+    <item quantity="other">%1$d выбрана</item>
+  </plurals>
   <!-- String indicating timestamp of photo or video -->
+  <string name="show_on_map">Паказаць на мапе</string>
+  <string name="rotate_left">Павярнуць улева</string>
+  <string name="rotate_right">Павярнуць управа</string>
   <!-- Toast message prompted when the specified item is not found [CHAR LIMIT=40]-->
+  <string name="no_such_item">Элемент не знойдзены.</string>
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
   <string name="edit">Рэдагаваць</string>
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
+  <string name="simple_edit">Простае рэдагаванне</string>
   <!-- String used as a title of a progress dialog. The user can
          choose to cache some Picasa picture albums on device, so it can
          be viewed offline. This string is shown when the request is being
          processed. [CHAR LIMIT=50] -->
+  <string name="process_caching_requests">Апрацоўка запытаў на кэшаванне</string>
   <!-- String used as a small notification label above a Picasa album.
          It means the pictures of the Picasa album is currently being
          transferred to local storage, so the pictures can later be viewed
          offline. [CHAR LIMIT=15] -->
+  <string name="caching_label">Кэшаванне\u2026</string>
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
+  <string name="crop_action">Абрэзаць</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
+  <string name="trim_action">Абразаць</string>
   <!-- The title of the menu item to let user mute the video. [CHAR LIMIT=15] -->
+  <string name="mute_action">Выключыць гук</string>
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
+  <string name="set_as">Усталяваць як</string>
   <!-- String indicating an error when muting the video. [CHAR LIMIT=30] -->
+  <string name="video_mute_err">Адбылася памылка.</string>
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
+  <string name="video_err">Не атрымалася прайграць відэа.</string>
   <!-- Strings for grouping operations in the menu. The photos can be grouped
          by their location, taken time, or tags. -->
   <!-- The title of the menu item to let user choose the grouping rule, when
          pressed, a submenu will shown and user can choose one grouping rule
          from the submenu. -->
   <!-- Title of a menu item to group photo by location [CHAR LIMIT=30] -->
+  <string name="group_by_location">Па месцазнаходжанню</string>
   <!-- Title of a menu tiem to group photo by taken date [CHAR LIMIT=30]-->
+  <string name="group_by_time">Па часе</string>
   <!-- Title of a menu item to group photo by tags [CHAR LIMIT=30]-->
+  <string name="group_by_tags">Па тэгам</string>
   <!-- Title of a menu item to group photo by faces [CHAR LIMIT=30]-->
+  <string name="group_by_faces">Па імёнах</string>
   <!-- Title of a menu item to group photo by albums [CHAR LIMIT=30]-->
+  <string name="group_by_album">Па альбомах</string>
   <!-- Title of a menu item to group photo by size [CHAR LIMIT=30]-->
+  <string name="group_by_size">Па памеру</string>
   <!-- When grouping photos by tags, the label used for photos without tags
          [CHAR LIMIT=20]-->
+  <string name="untagged">Без тэгаў</string>
   <!-- When grouping photos by locations, the label used for photos that don't
          have location information in them [CHAR LIMIT=20]-->
+  <string name="no_location">Без месцазнаходжання</string>
   <!-- This toast message is shown when network connection is lost while doing clustering -->
+  <string name="no_connectivity">Не атрымалася знайсці ўсе месцы з-за праблем з падключэннем.</string>
   <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
+  <string name="sync_album_error">Не атрымалася загрузіць фатаграфіі ў гэтым альбоме. Паспрабуйце яшчэ раз пазней.</string>
   <!-- The title of the menu item to let user choose the which portion of
          the media items the user wants to see. When pressed, a submenu will
          appear and user can choose one of "show images only",
          "show videos only", or "show all" from the submenu. -->
   <!-- Title of a menu item to show images only [CHAR LIMIT=30]-->
+  <string name="show_images_only">Толькі выявы</string>
   <!-- Title of a menu item to show videos only [CHAR LIMIT=30]-->
+  <string name="show_videos_only">Толькі відэа</string>
   <!-- Title of a menu item to show all (both images and videos) [CHAR LIMIT=30]-->
+  <string name="show_all">Выявы і відэа</string>
   <!-- Title of the StackView AppWidget -->
+  <string name="appwidget_title">Фотагалерэя</string>
   <!-- Text for the empty state of the StackView AppWidget [CHAR LIMIT=30] -->
+  <string name="appwidget_empty_text">Няма фота.</string>
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
+  <string name="crop_saved">
+        Абрэзаныя выявы захоўваюцца ў <xliff:g id="folder_name">%s</xliff:g>.</string>
   <!-- Toast message shown when there is no albums available [CHAR LIMIT=50]-->
+  <string name="no_albums_alert">Няма даступных альбомаў.</string>
   <!-- Toast message shown when we close the AlbumPage because it is empty
             [CHAR LIMIT=50] -->
+  <string name="empty_album">Няма даступных малюнкаў або відэа.</string>
   <!-- Album label used to indicate the collection of PWA Buzz/Post photos -->
+  <string name="picasa_posts">Допісы</string>
   <!-- A label describing that the current screen is for the user to pick
          some albums to be viewable offline [CHAR LIMIT=30] -->
+  <string name="make_available_offline">Спампаваць для доступу афлайн</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
+  <string name="more_image">Больш малюнкаў</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
+  <string name="sync_picasa_albums">Абнавіць</string>
   <!-- A label on a button. The user clicks this button after he has
          finished selection. [CHAR LIMIT=15] -->
   <string name="done">Гатова</string>
   <!-- String indicating the sequence of currently selected item in the
             media set eg. 3 of 5 items [CHAR LIMIT=30] -->
+  <string name="sequence_in_set">%1$d з %2$d элементаў:</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
+  <string name="title">Загаловак</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
+  <string name="description">Апісанне</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
+  <string name="time">Час</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
   <string name="location">Месцазнаходжанне</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
+  <string name="path">Шлях</string>
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
+  <string name="width">Шырыня</string>
   <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
+  <string name="height">Вышыня</string>
   <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+  <string name="model">Мадэль</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
+  <string name="flash">Выбліск</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
+  <string name="aperture">Дыяфрагма</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
+  <string name="focal_length">Фокусная адлегласць</string>
   <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
@@ -168,74 +243,114 @@
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
   <string name="unknown">Невядома</string>
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
+  <string name="ffx_original">Арыгінал</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
   <!-- String for filter that makes colors a bluish (filtershow_fx_0003_blue_crush) [CHAR LIMIT=10] -->
+  <string name="ffx_blue_crush">Сіні</string>
   <!-- String for filter that makes image black & white (filtershow_fx_0004_bw_contrast) [CHAR LIMIT=10] -->
   <!-- String for filter that makes colors a yellowish (filtershow_fx_0005_punch) [CHAR LIMIT=10] -->
   <!-- String for filter that mimics the cross-process technique in
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
+  <string name="ffx_x_process">X-працэс</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
+  <string name="ffx_washout">Латте</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
+  <string name="ffx_washout_color">Літаграфія</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
+  <plurals name="make_albums_available_offline">
+    <item quantity="one">Загрузка альбома для афлайн-доступу.</item>
+    <item quantity="few">Загрузка альбомаў для афлайн-доступу.</item>
+    <item quantity="other">Загрузка альбомаў для афлайн-доступу.</item>
+  </plurals>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
+  <string name="try_to_set_local_album_available_offline">
+        Гэты альбом захоўваецца на прыладзе, яго можна паглядзець у афлайн-рэжыме.</string>
   <!-- A label shown on the action bar. It indicates that the user is
          viewing all available albums [CHAR LIMIT=20] -->
+  <string name="set_label_all_albums">Усе альбомы</string>
   <!-- A label shown on the action bar. It indicates that the user is
          viewing albums stored locally on the device [CHAR LIMIT=20] -->
+  <string name="set_label_local_albums">Лакальны альбом</string>
   <!-- A label shown on the action bar. It indicates that the user is
          viewing MTP devices connected (like other digital cameras).
          [CHAR LIMIT=20] -->
+  <string name="set_label_mtp_devices">MTP-прылада</string>
   <!-- A label shown on the action bar. It indicates that the user is
          viewing Picasa albums [CHAR LIMIT=20] -->
+  <string name="set_label_picasa_albums">Альбомы Picasa</string>
   <!-- Label indicating the amount on free space on the device. The parameter
          is a string representation of the amount of free space, eg. "20MB".
          [CHAR LIMIT=20]
     -->
+  <string name="free_space_format">Вольна <xliff:g id="Bytes">%s</xliff:g></string>
   <!-- Label of a group of pictures. The size of each picture in this group is
          less than a certain amount. The parameter is a string representation
          of that amount, eg. "10MB".
          [CHAR LIMIT=20]
     -->
+  <string name="size_below"><xliff:g id="size">%1$s</xliff:g> ці меней</string>
   <!-- Label of a group of pictures. The size of each picture in this group is
          more than a certain amount. The parameter is a string representation
          of that amount, eg. "10MB".
          [CHAR LIMIT=20]
     -->
+  <string name="size_above"><xliff:g id="size">%1$s</xliff:g> ці больш</string>
   <!-- Label of a group of pictures. The size of each picture in this group is
          between two amounts. The parameters are string representations of the two
          amounts, eg. "10MB", "100MB".
          [CHAR LIMIT=20]
     -->
+  <string name="size_between"><xliff:g id="min_size">%1$s</xliff:g> да <xliff:g id="max_size">%2$s</xliff:g></string>
   <!-- A label shown on the action bar. It indicates that the operation
          to import media item(s) [CHAR LIMIT=20] -->
+  <string name="Import">Імпартаваць</string>
   <!-- A label shown on the action bar. It indicates whether the import
          operation succeeds or fails. [CHAR LIMIT=20] -->
+  <string name="import_complete">Імпарт завершаны</string>
+  <string name="import_fail">Памылка імпарту</string>
   <!-- A toast indicating a camera is connected to the device [CHAR LIMIT=30]-->
+  <string name="camera_connected">Камера падлучана.</string>
   <!-- A toast indicating a camera is disconnected [CHAR LIMIT=30] -->
+  <string name="camera_disconnected">Камера адключана.</string>
   <!-- A label shown on MTP albums thumbnail to instruct users to import
         [CHAR LIMIT=40] -->
+  <string name="click_import">Націсніце тут, каб імпартаваць</string>
   <!-- The label on the radio button for the widget type that shows the images randomly. [CHAR LIMIT=30]-->
+  <string name="widget_type_album">Выбраць альбом</string>
   <!-- The label on the radio button for the widget type that shows the images in an album. [CHAR LIMIT=30]-->
+  <string name="widget_type_shuffle">Змяшаць ўсе выявы</string>
   <!-- The label on the radio button for the widget type that shows only one image. [CHAR LIMIT=30]-->
+  <string name="widget_type_photo">Абярыце выяву</string>
   <!-- The title of the dialog for choosing the type of widget. [CHAR LIMIT=20] -->
+  <string name="widget_type">Выбраць выяву</string>
   <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
+  <string name="slideshow_dream_name">Слайд-шоў</string>
   <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
+  <string name="albums">Альбомы</string>
   <!-- Group by Times tab on Action Bar. [CHAR LIMIT=12] -->
+  <string name="times">Час</string>
   <!-- Group by Locations tab on Action Bar. [CHAR LIMIT=12] -->
+  <string name="locations">Месцазнаходжанне</string>
   <!-- Group by People tab on Action Bar. [CHAR LIMIT=12] -->
+  <string name="people">Людзі</string>
   <!-- Group by Tags tab on Action Bar. [CHAR LIMIT=12] -->
+  <string name="tags">Тэгі</string>
   <!-- Group by menu item. [CHAR LIMIT=20] -->
+  <string name="group_by">Групоўка па</string>
   <!-- The title of the menu item which enable the settings [CHAR LIMIT=20] -->
   <string name="settings">Налады</string>
   <!-- The title of menu item where user can add a new account -->
+  <string name="add_account">Дадаць акаўнт</string>
   <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
+  <string name="folder_camera">Камера</string>
   <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
   <string name="folder_download">Спампаваць</string>
   <!-- The label for the folder contains edited online pictures. [CHAR LIMIT=40]-->
+  <string name="folder_edited_online_photos">Адрэдагаваныя фота анлайн</string>
   <!-- The label for the folder contains pictures that was imported from an
          external camera. [CHAR LIMIT=20]-->
   <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
@@ -245,25 +360,49 @@
   <!-- The tilte of a dialog showing there is no external storage. [CHAR LIMIT=20] -->
   <!-- The message of a dialog showing there is no external storage. [CHAR LIMIT=none] -->
   <!-- Label for album filmstrip button -->
+  <string name="switch_photo_filmstrip">Стужка</string>
   <!-- Label for album grid button -->
+  <string name="switch_photo_grid">У выглядзе сеткі</string>
   <!-- Label for fullscreen button. [CHAR LIMIT=20] -->
+  <string name="switch_photo_fullscreen">Поўнаэкранны</string>
   <!-- The tilte of a dialog showing trimming in progress. [CHAR LIMIT=20] -->
+  <string name="trimming">Абрэзка</string>
   <!-- The tilte of a dialog showing muting in progress. [CHAR LIMIT=20] -->
+  <string name="muting">Адключэнне гуку</string>
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
+  <string name="please_wait">Калі ласка, пачакайце</string>
   <!-- Toast after the trimming / muting is done. [CHAR LIMIT=50] -->
+  <string name="save_into">Захаваць у альбоме <xliff:g id="album_name">%1$s</xliff:g> \u2026</string>
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
+  <string name="trim_too_short">Нельга абрэзаць відэа: яно занадта кароткае</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
+  <string name="mute_nosupport">Не ўдаецца адключыць гук: не падтрымліваецца відэа</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
+  <string name="pano_progress_text">Стварэнне панарамы</string>
   <!-- The label on the button that will save an edited image -->
   <string name="save" msgid="8140440041190264400">Захаваць</string>
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
   <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
   <!--  Text of notification message which is shown when user attaches camera -->
+  <string name="ingest_scanning" msgid="2048262851775139720">Сканаванне кантэнту\u2026</string>
   <!-- String indicating how many media items from the camera have been scanned -->
+  <plurals name="ingest_number_of_items_scanned">
+    <item quantity="one">Прасканавана элементаў: %1$d</item>
+    <item quantity="few">Прасканавана элементаў: %1$d</item>
+    <item quantity="other">Прасканавана элементаў: %1$d</item>
+  </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="one">%1$d абраны элемент</item>
+    <item quantity="few">%1$d абраных элемента</item>
+    <item quantity="other">%1$d абраных элементаў</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
+  <string name="ingest_sorting" msgid="624687230903648118">Сартаванне\u2026</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
+  <string name="ingest_scanning_done">Сканаванне завершана</string>
   <!--  Status message shown when content from an external camera is being imported -->
+  <string name="ingest_importing">Імпарт\u2026</string>
   <!--  Status message shown when there is no content available to be imported -->
   <!--  Status message shown when there is no MTP device connected  -->
   <!-- Label for album grid button -->
@@ -274,6 +413,7 @@
   <!-- message for the dialog showing the error of camera hardware -->
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <!-- label for the icon meaning 'show me all the images that were taken with the camera' -->
+  <string name="camera_label">Камера</string>
   <!-- alert to the user to wait for some operation to complete -->
   <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -294,7 +434,9 @@
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 16]-->
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
+  <string name="setting_off">Адключана</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
+  <string name="setting_on">Уключана</string>
   <!-- The value of a camera preference indicating the setting is off. -->
   <!-- The value of a camera preference indicating the setting is on. -->
   <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
@@ -303,6 +445,7 @@
   <!-- Video quality setting entry. Videos will be recorded in 720p quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in 480p quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in the highest quality available on the device. [CHAR LIMIT=24] -->
+  <string name="pref_video_quality_entry_high">Высокі</string>
   <!-- Video quality setting entry. Videos will be recorded in the lowest quality available on the device. [CHAR LIMIT=24] -->
   <string name="pref_video_quality_entry_low">Павольная</string>
   <!-- Describes the preference dialog for choosing interval between frame capture for
@@ -331,6 +474,8 @@
   <!-- flash label [CHAR LIMIT=50] -->
   <!-- Settings screen, Flash mode dialog radio button choices -->
   <string name="pref_camera_flashmode_entry_auto">Аўта</string>
+  <string name="pref_camera_flashmode_entry_on">Уключана</string>
+  <string name="pref_camera_flashmode_entry_off">Адключана</string>
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
   <!-- Default videocamera flash mode setting.-->
   <!-- Default white balance setting. -->
@@ -361,6 +506,7 @@
   <!-- Settings menu countdown timer 15 seconds [CHAR LIMIT=50] -->
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
   <!-- Exposure settings in preference -->
+  <string name="pref_exposure_title">Экспазіцыя</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
@@ -382,6 +528,7 @@
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
   <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
   <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
+  <string name="pano_review_rendering">Стварэнне панарамы</string>
   <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
   <!-- Default effect setting that clears the effect. -->
   <!-- Title of video effect setting popup window -->
@@ -406,6 +553,7 @@
   <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
   <!-- The menu button. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_menu_button">Кнопка Меню</string>
   <!-- The button to review the thumbnail. [CHAR LIMIT = NONE] -->
   <!-- The front/back camera switch. [CHAR LIMIT = NONE] -->
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
@@ -432,17 +580,21 @@ CHAR LIMIT = NONE] -->
   <!-- Default text for a button that can be toggled on and off. -->
   <!-- Default text for a button that can be toggled on and off. -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_off">Адключана</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_2000">2 секунды</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_3000">3 секунды</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_4000">4 секунды</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_5000">5 секунд</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_6000">6 секунд</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_10000">10 секунд</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -457,25 +609,33 @@ CHAR LIMIT = NONE] -->
   <string name="pref_video_time_lapse_frame_interval_120000">2 хвіліны</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_180000">3 хвіліны</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_300000">5 хвілін</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_600000">10 хвілін</string>
+  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_900000">15 хвілін</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_3600000">1 гадзіна</string>
+  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_7200000">2 гадзіны</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_14400000">4 гадзіны</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_21600000">6 гадзін</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_43200000">12 гадзін</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Seconds: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
@@ -492,20 +652,26 @@ CHAR LIMIT = NONE] -->
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+  <string name="remember_location_yes">Так</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
+  <string name="menu_camera">Камера</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
   <string name="menu_search">Пошук</string>
   <!-- Title for the all photos tab [CHAR LIMIT=25] -->
   <!-- Title for the albums tab [CHAR LIMIT=25] -->
+  <string name="tab_albums">Альбомы</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
   <!-- settings label [CHAR LIMIT=50] -->
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->
   <!-- The label for the bass boost knob of the audio effects dialog. -->
+  <string name="bass_boost_strength">Узмацненне басоў</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
   <!-- The label for the audio effects menu. -->
+  <string name="audio_effects">Аўдыя эфекты</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
+  <string name="headset_plug">Падлучыце навушнікі для гэтых эфектаў.</string>
   <!-- The title of the audio effects dialog. -->
   <!-- The tips of trimming video -->
 </resources>

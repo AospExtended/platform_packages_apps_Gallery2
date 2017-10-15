@@ -15,4 +15,28 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="layout_grid">바둑판식 보기</string>
+  <string name="layout_filmstrip">슬라이드 보기</string>
+  <string name="slideshow_settings">슬라이드쇼</string>
+  <string name="slideshow_random_title">임의의 순서로 보기</string>
+  <string name="slideshow_repeat_title">반복</string>
+  <string name="unit_sec">초</string>
+  <string name="slideshow_duration_title">지연 시간</string>
+  <string name="video_settings">동영상</string>
+  <string name="video_one_title">동영상1</string>
+  <string name="video_two_title">동영상2</string>
+  <string name="group_by_type">유형에 따라</string>
+  <string name="types">유형</string>
+  <string name="type">유형</string>
+  <string name="type_videos">동영상</string>
+  <string name="type_images">사진</string>
+  <string name="wallpaper_type_dialog_title">배경화면 설정</string>
+  <string name="wallpaper_type_both">홈 화면과 잠금 화면</string>
+  <string name="wallpaper_type_system">홈 화면</string>
+  <string name="wallpaper_type_lock">잠금 화면</string>
+  <string name="scrolling_wall_dialog_text">배경화면을 디스플레이 크기에 맞춰 자를까요\u003f</string>
+  <string name="scrolling_wall_dialog_title">배경화면 잘라내기</string>
+  <string name="scrolling_wall_yes">아니오</string>
+  <string name="scrolling_wall_no">예</string>
+</resources>

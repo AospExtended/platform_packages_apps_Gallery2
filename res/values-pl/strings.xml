@@ -396,7 +396,7 @@
   <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
   <string name="folder_camera">Aparat</string>
   <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
-  <string name="folder_download">Pobieranie</string>
+  <string name="folder_download">Pobierz</string>
   <!-- The label for the folder contains edited online pictures. [CHAR LIMIT=40]-->
   <string name="folder_edited_online_photos">Edytowane zdjęcia online</string>
   <!-- The label for the folder contains pictures that was imported from an

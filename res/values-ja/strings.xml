@@ -384,6 +384,7 @@
   <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
   <string name="folder_camera">カメラ</string>
   <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
+  <string name="folder_download">ダウンロード</string>
   <!-- The label for the folder contains edited online pictures. [CHAR LIMIT=40]-->
   <string name="folder_edited_online_photos">編集済みのオンライン画像</string>
   <!-- The label for the folder contains pictures that was imported from an
@@ -418,6 +419,7 @@
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">パノラマをレンダリング中</string>
   <!-- The label on the button that will save an edited image -->
+  <string name="save" msgid="8140440041190264400">保存</string>
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
   <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
   <!--  Text of notification message which is shown when user attaches camera -->

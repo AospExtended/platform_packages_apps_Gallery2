@@ -15,4 +15,18 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="layout_grid">Изглед в мрежа</string>
+  <string name="layout_filmstrip">Изглед „Филмова лента“</string>
+  <string name="slideshow_settings">Слайдшоу</string>
+  <string name="slideshow_random_title">Покажи в случаен ред</string>
+  <string name="slideshow_repeat_title">Повторение</string>
+  <string name="unit_sec">сек</string>
+  <string name="video_settings">Видео</string>
+  <string name="wallpaper_type_both">Начален и заключен екран</string>
+  <string name="wallpaper_type_system">Начален екран</string>
+  <string name="wallpaper_type_lock">Екран за заключване</string>
+  <string name="scrolling_wall_dialog_title">Подрязване на тапета</string>
+  <string name="scrolling_wall_yes">Не</string>
+  <string name="scrolling_wall_no">Да</string>
+</resources>

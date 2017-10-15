@@ -187,7 +187,7 @@
   <!--  Label for the green control for per channel saturation effect [CHAR LIMIT=20] -->
   <string name="editor_chan_sat_green">Hijau</string>
   <!--  Label for the cyan control for per channel saturation effect [CHAR LIMIT=20] -->
-  <string name="editor_chan_sat_cyan">Biru kehijauan</string>
+  <string name="editor_chan_sat_cyan">Sian</string>
   <!--  Label for the blue control for per channel saturation effect [CHAR LIMIT=20] -->
   <string name="editor_chan_sat_blue">Biru</string>
   <!--  Label for the Magenta control for per channel saturation effect [CHAR LIMIT=20] -->
@@ -224,7 +224,7 @@
   <!--  Label for the Spatter brush style of drawing in [CHAR LIMIT=14] -->
   <string name="draw_style_brush_marker">Percikan</string>
   <!--  Label for the removing drawing from screen [CHAR LIMIT=14] -->
-  <string name="draw_clear">Hapus</string>
+  <string name="draw_clear">Bersihkan</string>
   <!--  Label for the with of the border[CHAR LIMIT=14] -->
   <string name="color_border_size">Ketebalan</string>
   <!--  Label for the border corner size (or rounding) [CHAR LIMIT=14] -->
@@ -232,7 +232,7 @@
   <!--  Label for selecting the border color [CHAR LIMIT=14] -->
   <string name="color_border_color">Warna</string>
   <!--  Label for the removing borders [CHAR LIMIT=14] -->
-  <string name="color_border_clear">Hapus</string>
+  <string name="color_border_clear">Bersihkan</string>
   <!--  Label for the select the color [CHAR LIMIT=35] -->
   <string name="color_pick_select">Pilih warna khusus</string>
   <!--  The title for the color pick dialog [CHAR LIMIT=20] -->
@@ -250,13 +250,13 @@
   <!-- Label for the notification message [CHAR LIMIT=50] -->
   <string name="filtershow_notification_message">Memproses...</string>
   <!-- Label for the save preset menu [CHAR LIMIT=30] -->
-  <string name="filtershow_save_preset">Simpan prasetel saat ini</string>
+  <string name="filtershow_save_preset">Simpan preset saat ini</string>
   <!-- Label for the manage preset menu [CHAR LIMIT=42] -->
-  <string name="filtershow_manage_preset">Kelola prasetel pengguna</string>
+  <string name="filtershow_manage_preset">Kelola preset pengguna</string>
   <!-- Label for newly created user preset [CHAR LIMIT=30] -->
-  <string name="filtershow_new_preset">Prasetel Baru</string>
+  <string name="filtershow_new_preset">Preset Baru</string>
   <!-- Label for preset name [CHAR LIMIT=30] -->
-  <string name="filtershow_preset_name">Nama Prasetel</string>
+  <string name="filtershow_preset_name">Nama Preset</string>
   <!-- Label for showing the image information panel [CHAR LIMIT=50] -->
   <string name="filtershow_show_info_panel">Informasi</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
@@ -268,7 +268,7 @@
   <!-- Label for the information panel [CHAR LIMIT=30] -->
   <string name="filtershow_show_info_panel_exif">Data EXIF</string>
   <!-- Label for the add button in the category panel [CHAR LIMIT=30] -->
-  <string name="filtershow_add_button_looks">Prasetel</string>
+  <string name="filtershow_add_button_looks">Preset</string>
   <!-- Label for the add button in the versions panel [CHAR LIMIT=30] -->
   <string name="filtershow_add_button_versions">Versi</string>
   <!-- Label for the Original version in the versions panel [CHAR LIMIT=30] -->

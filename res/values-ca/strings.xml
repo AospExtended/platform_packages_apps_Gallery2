@@ -383,6 +383,7 @@
          external camera. [CHAR LIMIT=20]-->
   <string name="folder_imported">Importades</string>
   <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
+  <string name="folder_screenshot">Captura de pantalla</string>
   <!-- The title of the menu item which display online help in browser. [CHAR LIMIT=20]-->
   <!-- The tilte of a dialog showing there is no external storage. [CHAR LIMIT=20] -->
   <string name="no_external_storage_title">No hi ha emmagatzem.</string>
@@ -822,6 +823,7 @@ CHAR LIMIT = NONE] -->
   <string name="map_activity_not_found_err">There is no map app for show location.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
+  <string name="menu_search">Cerca</string>
   <!-- Title for the all photos tab [CHAR LIMIT=25] -->
   <string name="tab_photos">Fotos</string>
   <!-- Title for the albums tab [CHAR LIMIT=25] -->

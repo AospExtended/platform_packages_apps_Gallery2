@@ -33,6 +33,7 @@
   <!--  Text for filters that apply a border to a picture [CHAR LIMIT=20] -->
   <string name="borders" msgid="4461692156695893616">Контури</string>
   <!-- Text for the custom border filter [CHAR LIMIT=20] -->
+  <string name="custom_border">По избор</string>
   <!--  actionbar menu -->
   <!--  Text for the undo menu item [CHAR LIMIT=20] -->
   <string name="filtershow_undo">Отмяна</string>
@@ -64,6 +65,7 @@
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
   <string name="save_before_exit">Искате ли да запазите преди изход?</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
+  <string name="save_and_exit">Запис</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_processing">Изображението с пълна разделителна способност се обработва...</string>
   <!--  String displayed when exiting editor[CHAR LIMIT=NONE] -->
@@ -72,6 +74,7 @@
   <!--  Text for the history panel title [CHAR LIMIT=50] -->
   <string name="history">История</string>
   <!--  Text for the history panel reset button [CHAR LIMIT=20]-->
+  <string name="reset">Нулиране</string>
   <!--  Text for the original image[CHAR LIMIT=20]-->
   <string name="history_original">Оригинал</string>
   <!--  Image state panel -->
@@ -83,6 +86,7 @@
   <!--  Label for the apply effect button [CHAR LIMIT=15] -->
   <string name="apply_effect">Прилагане</string>
   <!--  Label for the reset effect button [CHAR LIMIT=15] -->
+  <string name="reset_effect">Нулиране</string>
   <!--  Label for aspect [CHAR LIMIT=15] -->
   <string name="aspect">Съотношение</string>
   <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
@@ -100,6 +104,7 @@
   <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
   <string name="aspect9to16_effect">16:9</string>
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
+  <string name="aspectNone_effect">Нищо</string>
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
   <string name="aspectOriginal_effect">Оригинал</string>
   <!-- Label for when the aspect ratio is fixed to a value [CHAR LIMIT=15] -->
@@ -150,11 +155,13 @@
   <!--  Label for the image crop effect [CHAR LIMIT=15] -->
   <string name="crop" msgid="5584000454518174632">Подрязване</string>
   <!--  Label for the image rotate effect [CHAR LIMIT=15] -->
+  <string name="rotate" msgid="460017689320955494">Завъртане</string>
   <!--  Label for the image flip effect [CHAR LIMIT=15] -->
   <string name="mirror">Огледало</string>
   <!-- Name for the photo effect that inverts photo to negative images. [CHAR LIMIT=10] -->
   <string name="negative">Негатив</string>
   <!--  Label for having no filters applied to the image [CHAR LIMIT=10] -->
+  <string name="none" msgid="3601545724573307541">Нищо</string>
   <!--  Label for the image edges effect (highlights edges in image) [CHAR LIMIT=10] -->
   <string name="edge">Edges</string>
   <!--  Label for an image effect that replicates the "pop art" style of segmenting
@@ -207,6 +214,7 @@
   <!--  Label for the Brightness to draw in [CHAR LIMIT=14] -->
   <string name="draw_value">Ярко</string>
   <!--  Label for the color to draw in [CHAR LIMIT=14] -->
+  <string name="draw_color">Цвят</string>
   <!--  Label for the line style of drawing in [CHAR LIMIT=14] -->
   <string name="draw_style_line">Линии</string>
   <!--  Label for the Marker brush style of drawing in [CHAR LIMIT=14] -->
@@ -220,6 +228,7 @@
   <!--  Label for the border corner size (or rounding) [CHAR LIMIT=14] -->
   <string name="color_border_corner_size">Ъгъл: Размер</string>
   <!--  Label for selecting the border color [CHAR LIMIT=14] -->
+  <string name="color_border_color">Цвят</string>
   <!--  Label for the removing borders [CHAR LIMIT=14] -->
   <string name="color_border_clear">Изчистване</string>
   <!--  Label for the select the color [CHAR LIMIT=35] -->
@@ -229,6 +238,7 @@
   <!--  The title for draw size [CHAR LIMIT=50] -->
   <string name="draw_size_title">Избиране на размер</string>
   <!--  The accept the draw size [CHAR LIMIT=20] -->
+  <string name="draw_size_accept">Да</string>
   <!--  Name used to indicate the original image in the state panel [CHAR LIMIT=20] -->
   <string name="state_panel_original">Оригинал</string>
   <!--  Name used to indicate the final image in the state panel [CHAR LIMIT=20] -->
@@ -262,6 +272,7 @@
   <!-- Label for the Original version in the versions panel [CHAR LIMIT=30] -->
   <string name="filtershow_version_original">Оригинал</string>
   <!-- Label for the Current version in the versions panel [CHAR LIMIT=30] -->
+  <string name="filtershow_version_current">Текуща</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_model">Модел</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->

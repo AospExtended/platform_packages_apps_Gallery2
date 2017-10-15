@@ -66,6 +66,7 @@
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
   <string name="save_before_exit">Çıkmadan önce kaydetmek ister misiniz?</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
+  <string name="save_and_exit">Kaydet</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_processing">Tam çözünürlüklü resim işleniyor...</string>
   <!--  String displayed when exiting editor[CHAR LIMIT=NONE] -->

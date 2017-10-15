@@ -15,4 +15,28 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="layout_grid">У выглядзе сеткі</string>
+  <string name="layout_filmstrip">Стужка</string>
+  <string name="slideshow_settings">Слайд-шоў</string>
+  <string name="slideshow_random_title">Паказаць у выпадковым парадку</string>
+  <string name="slideshow_repeat_title">Паўтор</string>
+  <string name="unit_sec">сек</string>
+  <string name="slideshow_duration_title">Час затрымкі</string>
+  <string name="video_settings">Відэа</string>
+  <string name="video_one_title">Відэа1</string>
+  <string name="video_two_title">Відэа2</string>
+  <string name="group_by_type">Па тыпу</string>
+  <string name="types">Тыпы</string>
+  <string name="type">Тып</string>
+  <string name="type_videos">Відэа</string>
+  <string name="type_images">Выявы</string>
+  <string name="wallpaper_type_dialog_title">Усталяваць як шпалеры</string>
+  <string name="wallpaper_type_both">Хатні экран і экран блакіроўкі</string>
+  <string name="wallpaper_type_system">Хатні экран</string>
+  <string name="wallpaper_type_lock">Экран блакавання</string>
+  <string name="scrolling_wall_dialog_text">Вы хочаце абрэзаць шпалеры па памеры экрана\u003f</string>
+  <string name="scrolling_wall_dialog_title">Абрэзаць шпалеры</string>
+  <string name="scrolling_wall_yes">Не</string>
+  <string name="scrolling_wall_no">Так</string>
+</resources>
